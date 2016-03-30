@@ -1,0 +1,364 @@
+/* GLOBAL STYLES*/
+
+/*first, CONTROL BODY TAG*/
+
+/*
+
+*/
+body {
+  height:100%;
+  margin: 0px;
+  padding:0px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1, h2, h3 {
+  margin:0px;
+
+}
+
+h2 {
+    border-bottom: solid 5px #7fff00;
+
+
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+ul {
+  list-style-type: none;
+
+
+}
+
+/*HEADER STYLES*/
+
+header {
+  height:120px;
+
+
+
+}
+
+/*position: abolute; freezes */
+#logo {
+  width: 300px;
+  position: absolute;
+  top:35px;
+  left:100px;
+
+}
+
+/*when you hover over h1, i want you to change colors*/
+#logo h1:hover {
+  color:#2e2eb8;
+
+}
+
+/*to call an id*/
+
+#menu {
+  position: absolute;
+  top: 35px;
+  right: 300px;
+
+}
+
+#menu ul {
+  display: inline-block;
+}
+
+#menu li {
+  display:block;
+  float: left;
+
+}
+
+/*:after{ content:| pipe character}*/
+#menu li:after {
+  padding: 0 10px;
+    content: " | ";
+}
+
+#menu a:hover {
+  color:#ff6600;
+}
+
+/*BANNER STYLES*/
+
+#banner-home {
+  height: 350px;
+  /*background-color: #dddddd;*/
+  background-size: cover;
+
+    background:#ffbc00 ; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffbc00, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffbc00, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffbc00, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffbc00, white); /* Standard syntax (must be last) */
+
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+
+}
+
+#banner-home h1 {
+  text-align: center;
+  padding: 90px 0px;
+
+  font-size: 72px;
+  background: -webkit-linear-gradient(black, #bfbfbf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*BLOG STYLES*/
+
+.container {
+  width: 1200px;
+  margin: 55px auto; /*centers margin */
+  overflow:hidden;  /*If your material drips out of continer, it will hide it */
+  padding-bottom: 20px;
+
+
+
+}
+
+.blog-1, .blog-2 {
+  width: 384px;
+  float: left;
+  margin-right: 24px;
+
+}
+
+.blog-3 {
+  width: 384px;
+  float:left;
+
+}
+
+.blog-image {
+  width: 384px;
+  height: 250px;
+}
+
+#blog h2 {
+  margin:21px 0;
+  text-align: center;
+}
+
+#blog p {
+  text-align: justify; /*aligns the text*/
+
+}
+
+.button {
+  padding: 15px 10px;
+  background-color: #ffbc00;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  /*rounds off the button*/
+  display: inline-block;
+
+
+}
+
+.button:hover {
+  background-color: #fff2e5;
+
+}
+
+/* ABOUT STYLES */
+
+#about {
+  border: 5px solid #7fff00;
+  padding: -4px;
+  padding-left: 20px;
+  border-radius: 3px;
+  clear: both;
+
+
+}
+
+.align-left {
+  margin-right: 24px;
+  margin-top: 24px;
+  float: left;
+  width: 384px;
+}
+
+.selfie {
+  height: 400px;
+  width:350px;
+}
+
+
+#about h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 50px;
+
+}
+
+figure {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* ABOUT STLYES */
+
+footer{
+  margin-top:20px;
+  clear:both;
+}
+
+#copyright {
+  padding: 30px 0px;
+  background-color: #ffbc00;
+}
+
+#copyright p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#copyright a {
+  color:white;
+}
+
+.social {
+  text-align: center;
+
+}
+
+.fa {
+  height:28px;
+  width:28px;
+  background-color: #7fff00;
+  padding: 10px;
+  border: 3px solid #white;
+  border-radius: 100%;
+  margin: 15px;
+  font-size: 28px !important;
+  background: -webkit-radial-gradient(red, yellow, green);
+}
+
+/*===== ABOUT PAGE STYLES*/
+#video {
+  margin-top: 40px;
+  width: 40%;
+  position: relative;
+  padding:56%;
+  padding-top: 30px;
+  height:0px;
+
+  overflow: hidden;
+}
+
+.video-container {
+  width: 98%;
+  margin: 0px auto;
+
+}
+
+#video iframe {
+position: absolute;
+top:0px;
+left:0px;
+width:50%;
+height:100%;
+margin-left: 8%;
+}
+
+
+#about-page {
+  padding: 10px;
+  border-top: 10px ridge #7fff00;
+  border-bottom: 10px ridge #7fff00;
+
+}
+
+#aboutpage article{
+  width:600px;
+  float:right;
+  padding:10px;
+}
+#about-page h1 {
+  text-align: left;
+  font-size: 3em;
+}
+#aboutpage p{
+  line-height: 1.2em;
+  text-align: justify;
+}
+
+#about-page li {
+  font-size: 2em;
+}
+.align-right {
+  margin-left: 24px;
+  margin-top: 83px;
+  float: right;
+  width: 384px;
+}
+
+/*=====CONTACT PAGE STYLES=====*/
+#contact h3 {
+  font-size: 3em;
+}
+
+#contact ul {
+  padding-left: 10px;
+  border-bottom: solid 5px #7fff00;
+}
+
+#contact li {
+  font-size: 20px;
+  padding:2px 0px;
+}
+.map {
+  float:left;
+  margin: 20px;
+}
+
+.info {
+  float:left;
+  margin-left: 35px;
+  margin-top: 10px;
+  margin-right: 60px;
+
+}
+/*GALLERY PAGE STYLES*/
+
+#gallery img {
+  width:400px;
+  height: 380px;
+  margin: 30px;
+  float: left;
+}
+
+#triangleup {
+
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 100px solid #afe3ff ;
+  display: inline-block;
+}
+
+
+#triangledown {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 100px solid #768f9b;
+  display: inline-block;
+}
